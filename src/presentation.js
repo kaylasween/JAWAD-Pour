@@ -84,6 +84,7 @@ export default class Presentation extends React.Component {
               <ListItem>a11y - accessibility</ListItem>
               <ListItem>weba11y - designing and developing for everyone</ListItem>
               <ListItem>WCAG - set of guidleines for devs and designers to follow to help make their content more accessible.</ListItem>
+              <ListItem>all/most WCAG guidelines fit into POUR</ListItem>
               <ListItem>Domino's pizza, Queen Bey</ListItem>
               <ListItem>Important, not a "nice to have"</ListItem>
               <ListItem>Lawsuits aside, goodness of heart</ListItem>
@@ -102,10 +103,13 @@ export default class Presentation extends React.Component {
             <List>
               <ListItem>Insightful, I know.</ListItem>
               <ListItem>when building app, usually assume have all 5 senses. (sight, touch, hear most applicable)</ListItem>
-              <ListItem>Not true. could have part or all of a sense taken away/learning disability</ListItem>
+              <ListItem>Not true. could have part or all of a sense taken away</ListItem>
               <ListItem>Make sure content can be perceived via multiple senses</ListItem>
-              <ListItem>Also applies to content structure</ListItem>
+              <ListItem>How many watch videos with captions on if in noisy area?</ListItem>
+              <ListItem>Also applies to content structure and elements used</ListItem>
               <ListItem>Navs usually uls styled for a reason: if css not load, intent still comes across</ListItem>
+              <ListItem>Make sure your users use websites to</ListItem>
+              <ListItems>These kind of flow between POUR principles</ListItems>
             </List>
           </Notes>
         </Slide>
@@ -120,8 +124,11 @@ export default class Presentation extends React.Component {
           <Notes>
             <List>
               <ListItem>usable via multiple input methods (mouse, keyboard, voice control)</ListItem>
-              <ListItem>also includes search functionality</ListItem>
+              <ListItem>also includes search functionality to have multiple ways to get to content</ListItem>
+              <ListItem>Get to all elements, get away from them (especially via keyboard)</ListItem>
+              <ListItem>clickable/tappable targets large enough</ListItem>
               <ListItem>Time limits inhibit user from operating</ListItem>
+              <ListItem>Enough time to read and use content</ListItem>
               <ListItem>Error handling - recover from mistakes</ListItem>
               <ListItem>confirmation screen</ListItem>
             </List>
@@ -137,7 +144,10 @@ export default class Presentation extends React.Component {
           </Text>
           <Notes>
             <List>
+              <ListItems>Comprehend content and operation</ListItems>
               <ListItem>page language</ListItem>
+              <ListItems>Jargon/abbrev defined</ListItems>
+              <ListItems>Reading level (rec?)</ListItems>
               <ListItem>Goes with perceivable (alt, captions, etc)</ListItem>
               <ListItem>Operation understandable as well</ListItem>
               <ListItem>Nav consistent and predictable</ListItem>
@@ -161,6 +171,9 @@ export default class Presentation extends React.Component {
               <ListItem>Responsive</ListItem>
               <ListItem>Free of errors</ListItem>
               <ListItem>Semantic HTML</ListItem>
+              <ListItem>Validate code: Make sure closing tags</ListItem>
+              <ListItem>IDEs do for you, but make sure</ListItem>
+              <ListItem>Make sure utilize best practices and conform to specs</ListItem>
             </List>
           </Notes>
         </Slide>
