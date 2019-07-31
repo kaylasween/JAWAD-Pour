@@ -84,7 +84,9 @@ export default class Presentation extends React.Component {
               <ListItem>a11y - accessibility</ListItem>
               <ListItem>weba11y - designing and developing for everyone</ListItem>
               <ListItem>WCAG - set of guidleines for devs and designers to follow to help make their content more accessible.</ListItem>
+              <ListItem>Domino's pizza, Queen Bey</ListItem>
               <ListItem>Important, not a "nice to have"</ListItem>
+              <ListItem>Lawsuits aside, goodness of heart</ListItem>
             </List>
           </Notes>
         </Slide>
