@@ -1,0 +1,6 @@
+let a11y = "accessibility";
+let webA11y = "designing and developing for every user";
+let wcag = "(wuh-cag) Web Content Accessibility Guidelines";
+let pour = "4 principles of a11y";
+
+const isNiceToHave = webA11y => false; //it's required
