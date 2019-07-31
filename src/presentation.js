@@ -69,9 +69,10 @@ export default class Presentation extends React.Component {
           <Notes>
             <List>
               <ListItem>Kayla Sween</ListItem>
-              <ListItem>Powerlifter</ListItem>
-              <ListItem>friendly neighborhood accessibility person</ListItem>
+              <ListItem>friendly neighborhood UX/accessibility person</ListItem>
               <ListItem>Developer</ListItem>
+              <ListItem>4 principles of accessibility</ListItem>
+              <ListItem>go so far as to say 4 principles of UX</ListItem>
             </List>
           </Notes>
         </Slide>
@@ -108,8 +109,7 @@ export default class Presentation extends React.Component {
               <ListItem>How many watch videos with captions on if in noisy area?</ListItem>
               <ListItem>Also applies to content structure and elements used</ListItem>
               <ListItem>Navs usually uls styled for a reason: if css not load, intent still comes across</ListItem>
-              <ListItem>Make sure your users use websites to</ListItem>
-              <ListItems>These kind of flow between POUR principles</ListItems>
+              <ListItem>These kind of flow between POUR principles</ListItem>
             </List>
           </Notes>
         </Slide>
@@ -144,14 +144,16 @@ export default class Presentation extends React.Component {
           </Text>
           <Notes>
             <List>
-              <ListItems>Comprehend content and operation</ListItems>
+              <ListItem>Comprehend content and operation</ListItem>
               <ListItem>page language</ListItem>
-              <ListItems>Jargon/abbrev defined</ListItems>
-              <ListItems>Reading level (rec?)</ListItems>
+              <ListItem>Jargon/abbrev defined</ListItem>
+              <ListItem>Reading level (rec?)</ListItem>
               <ListItem>Goes with perceivable (alt, captions, etc)</ListItem>
               <ListItem>Operation understandable as well</ListItem>
               <ListItem>Nav consistent and predictable</ListItem>
               <ListItem>Form elements consistent behavior and clearly labeled</ListItem>
+              <ListItem>particular date format, list it</ListItem>
+              <ListItem>Not in placeholder goes away when in focus</ListItem>
             </List>
           </Notes>
         </Slide>
@@ -173,7 +175,7 @@ export default class Presentation extends React.Component {
               <ListItem>Semantic HTML</ListItem>
               <ListItem>Validate code: Make sure closing tags</ListItem>
               <ListItem>IDEs do for you, but make sure</ListItem>
-              <ListItem>Make sure utilize best practices and conform to specs</ListItem>
+              <ListItem>Make sure utilize best practices</ListItem>
             </List>
           </Notes>
         </Slide>
