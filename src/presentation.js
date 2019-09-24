@@ -27,9 +27,11 @@ import secrets from './assets/keepyoursecrets.jpg';
 
 //Import icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, 
-         faTwitter,
-         faDev } from '@fortawesome/free-brands-svg-icons';
+import {
+  faGithub,
+  faTwitter,
+  faDev
+} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 // Require CSS
@@ -61,7 +63,10 @@ export default class Presentation extends React.Component {
       >
         <Slide transition={['zoom']} bgColor="primary">
           <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-            POUR
+            "POUR"ing Accessibility
+          </Heading>
+          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+            into Your Applications
           </Heading>
           <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
             Perceivable, Operable, Understandable, Robust
@@ -69,8 +74,8 @@ export default class Presentation extends React.Component {
           <Notes>
             <List>
               <ListItem>Kayla Sween</ListItem>
-              <ListItem>friendly neighborhood UX/accessibility person</ListItem>
-              <ListItem>Developer</ListItem>
+              <ListItem>Front-end dev from Jackson, MS</ListItem>
+              <ListItem>Accessibility is a passion of mine</ListItem>
               <ListItem>4 principles of accessibility</ListItem>
               <ListItem>go so far as to say 4 principles of UX</ListItem>
             </List>
@@ -182,7 +187,7 @@ export default class Presentation extends React.Component {
 
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <Heading size={4} textColor="primary" caps>
-            As developers, we create things for our users.
+            As developers and designers, we create things for our users.
           </Heading>
         </Slide>
 
@@ -190,11 +195,17 @@ export default class Presentation extends React.Component {
           <Heading size={4} textColor="primary" caps>
             Care about your users.
           </Heading>
+          <Notes>
+            So the thing I ask of you is to care about your users.
+          </Notes>
         </Slide>
 
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <Image src={secrets} height={'20em'}
-                 alt="Meme. Still of Frodo Baggins from Lord of the Rings that says *no alt text or image description.* visually impaired people: all right, then. keep your secrets." />
+            alt="Meme. Still of Frodo Baggins from Lord of the Rings that says *no alt text or image description.* visually impaired people: all right, then. keep your secrets." />
+          <Notes>
+            So we're not ending on such a serious note...
+          </Notes>
         </Slide>
 
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
@@ -209,7 +220,7 @@ export default class Presentation extends React.Component {
             <FontAwesomeIcon icon={faDev} alt="Dev community" />  kaylasween
           </Text>
           <Text size={6} textColor="primary" padding={10}>
-            <FontAwesomeIcon icon={faEnvelope}/> kayla@kaylasween.com
+            <FontAwesomeIcon icon={faEnvelope} /> kayla@kaylasween.com
           </Text>
         </Slide>
       </Deck>
